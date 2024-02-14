@@ -1,0 +1,60 @@
+{
+	"endpoint" : "/biocapture/access/v2/single-device-login-lite",
+	
+	
+	"validLogin": {
+		"email": "oadelegan@seamfix.com",
+		"password": "Password1@",
+		"deviceIdentifier": "DROID-S120-271098-1583775912522"
+	},
+	
+	"invalidEmail": {
+		"email": "vinny@seamfix.com",
+		"password": "Password1@",
+		"deviceIdentifier": "DROID-S120-271098-1583775912522"
+	},
+	
+	"emptyEmail": {
+		"email": "",
+		"password": "Password1@",
+		"deviceIdentifier": "DROID-S120-271098-1583775912522"
+	},
+	
+	"emptyEmailEmptyPassword": {
+		"email": "",
+		"password": "",
+		"deviceIdentifier": "DROID-S120-271098-1583775912522"
+	},
+	
+	"validEmailInvalidPassword": {
+		"email": "ayodelefibs@yahoo.com",
+		"password": "Password",
+		"deviceIdentifier": "DROID-S120-271098-1583775912522"
+	},
+	
+	"validEmailEmptyPassword": {
+		"email": "ayodelefibs@yahoo.com",
+		"password": "",
+		"deviceIdentifier": "DROID-S120-271098-1583775912522"
+	},
+	
+	"loginWithDeactivatedUser": {
+		"email": "egan@yopmail.com",
+		"password": "Password1@",
+		"deviceIdentifier": "DROID-S120-271098-1583775912522"
+	},
+	
+	"loginWithValidEmailPasswordWrongDeviceID": {
+		"email": "oadelegan@seamfix.com",
+		"password": "Password1@",
+		"deviceIdentifier": "DR"
+	},
+	
+	"loginWithValidEmailPasswordEmptyDeviceID": {
+		"email": "oadelegan@seamfix.com",
+		"password": "Password1@",
+		"deviceIdentifier": ""
+	}
+	
+	
+}

@@ -1,0 +1,31 @@
+
+{
+	"endPoint":"/verification/search-by-nin",
+
+	"params": {
+		"clientRequest": {
+			"appVersion": "1.0",
+			"applicationId": "com.seamfix.nimc_apk",
+			"applicationKey": "12345feyisayo12",
+			"currentThresholdVersion": 1,
+			"deviceId": "TECNO-354265082640500",
+			"deviceType": "DROID",
+			"imageCleanUpVersion": 1,
+			"installDate": "26-Jul-2019 03:48 pm",
+			"mac": "CC:9F:7A:51:E7:0A",
+			"machineArchitecture": 64,
+			"machineManufacturer": "HMD Global",
+			"machineModel": "TA-1021",
+			"machineRuntimeVersion": "ART,26,0,64",
+			"machineSerial": "PLEGAR1790431769",
+			"passiveLivenessVersion": 1,
+			"patchVersion": 1.0,
+			"vendorId": "S120"
+		},
+	
+		"ninSearchDto": {
+			"nin": "11111111111"
+		}
+	}
+}
+

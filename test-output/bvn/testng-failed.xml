@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [bvn]" parallel="tests">
+  <parameter name="toMails" value="oadelegan@seamfix.com"/>
+  <parameter name="dataEnv" value="stagingData"/>
+  <parameter name="groupReport" value="/Nimc.html"/>
+  <test thread-count="1" name="SingleDeviceLogin(failed)" parallel="tests">
+    <classes>
+      <class name="services.SingleDeviceLogin">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="cleanup"/>
+          <include name="loginWithValidemailPasswordEmptyDeviceID" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="loginWithDeactivatedUser" invocation-numbers="0"/>
+          <include name="loginWithValidEmailPasswordWrongDeviceID" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- services.SingleDeviceLogin -->
+    </classes>
+  </test> <!-- SingleDeviceLogin(failed) -->
+  <test thread-count="1" name="BiometricsLoginV2(failed)" parallel="tests">
+    <classes>
+      <class name="services.BiometricsLoginV2">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="cleanup"/>
+          <include name="validUsernameInvalidfingerPrintAndValidFingerCode" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- services.BiometricsLoginV2 -->
+    </classes>
+  </test> <!-- BiometricsLoginV2(failed) -->
+</suite> <!-- Failed suite [bvn] -->

@@ -1,0 +1,25 @@
+{
+	"endpoint" : "/biocapture/onboard/v2/validate/email",
+	
+	
+	"ValidEmailThatHasNotBeenOnboarded": {
+		"email": "tobs@yopmail.com"
+	},
+	
+	"ValidEmailThatHasBeenOnboarded": {
+		"email": "ayodelefibs@yahoo.com"
+	},
+	
+	"InvalidEmail": {
+		"email": "adelefibs@seamfix.com"
+	},
+	
+	"DeactivatedUser": {
+		"email": "egan@yopmail.com"
+	},
+	
+	"EmptyEmail": {
+		"email": ""
+	}
+
+}

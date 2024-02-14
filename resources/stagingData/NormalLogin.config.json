@@ -1,0 +1,41 @@
+{
+	"endpoint" : "/biocapture/access/login-lite",
+	
+	
+	"validLogin": {
+		"email": "oadelegan@seamfix.com",
+		"password": "Password1@"
+	},
+	
+	"invalidEmail": {
+		"email": "vinny@seamfix.com",
+		"password": "Password1@"
+	},
+	
+	"emptyEmail": {
+		"email": "",
+		"password": "Password1@"
+	},
+	
+	"emptyEmailEmptyPassword": {
+		"email": "",
+		"password": ""
+	},
+	
+	"validEmailInvalidPassword": {
+		"email": "ayodelefibs@yahoo.com",
+		"password": "Password"
+	},
+	
+	"validEmailEmptyPassword": {
+		"email": "ayodelefibs@yahoo.com",
+		"password": ""
+	},
+	
+	"loginWithDeactivatedUser": {
+		"email": "egan@yopmail.com",
+		"password": "Password1@"
+	}
+	
+	
+}

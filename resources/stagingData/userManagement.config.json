@@ -1,0 +1,47 @@
+{
+  "endpoint" : "/device/login",
+
+
+  "validDeviceUserLogin": {
+    "deviceId":"X0-X0-X0-X0-X0",
+    "loginId": "12345678995",
+    "password": "P@ssw0rd!"
+},
+
+  "invalidLoginDetails": {
+    "deviceId":"X0-X0-X0-X0-X0",
+    "loginId": "12341176995",
+    "password": "Petw0rd!"
+},
+  
+  "validLoginIDInvalidPassword": {
+    "deviceId":"X0-X0-X0-X0-X0",
+    "loginId": "12345678995",
+    "password": "P@ssw!"
+},
+
+  "invalidLoginIDValidPassword": {
+    "deviceId":"X0-X0-X0-X0-X0",
+    "loginId": "12225678795",
+    "password": "P@ssw0rd!"
+},
+
+  "emptyLoginIDEmptyPassword": {
+    "deviceId":"X0-X0-X0-X0-X0",
+    "loginId": "",
+    "password": ""
+},
+
+  "emptyDeviceIDValidLoginDetails": {
+    "deviceId":"",
+    "loginId": "12345678995",
+    "password": "P@ssw0rd!"
+},
+
+  "invalidDeviceIDValidLoginDetails": {
+    "deviceId":"X0-X0-TT-X0-X0",
+    "loginId": "12345678995",
+    "password": "P@ssw0rd!"
+}
+
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="bvn" parallel="tests" thread-count="1">
+	<parameter name="groupReport" value="/Nimc.html" />
+	<parameter name="toMails" value="gnwabude@seamfix.com" />
+	<parameter name="dataEnv" value="ProdData" />
+	
+</suite>

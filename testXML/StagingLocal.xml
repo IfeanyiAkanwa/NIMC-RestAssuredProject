@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NimcServices" parallel="tests" thread-count="1">
+	<parameter name="groupReport" value="/Nimc.html" />
+	<parameter name="toMails" value="jikhile@seamfix.com" />
+	<parameter name="dataEnv" value="stagingData" />
+	
+	<test name="CbsLogin" preserve-order="true">
+		<classes>
+			<class name="services.CbsLogin" />
+		</classes>
+	</test> 
+	
+		<test name="BlackList" preserve-order="true">
+		<classes>
+			<class name="services.BlackList" />
+		</classes>
+	</test> 
+	
+	<test name="Configs" preserve-order="true">
+		<classes>
+			<class name="services.Configs" />
+		</classes>
+	</test>
+	
+	<test name="HeartBeat" preserve-order="true">
+		<classes>
+			<class name="services.HeartBeat" />
+		</classes>
+	</test> 
+	
+	<test name="KeyManagement" preserve-order="true">
+		<classes>
+			<class name="services.KeyManagement" />
+		</classes>
+	</test>
+	
+	<test name="ClientExperienceAuditDataCapture" preserve-order="true">
+		<classes>
+			<class name="services.ClientExperienceAuditDataCapture" />
+		</classes>
+	</test>
+	
+	<test name="UserManagement" preserve-order="true">
+		<classes>
+			<class name="services.UserManagement" />
+		</classes>
+	</test>
+	
+	<test name="Harmonization" preserve-order="true">
+		<classes>
+			<class name="services.Harmonization"/>
+		</classes>
+	</test>
+	
+	<test name="VendorManagement" preserve-order="true">
+		<classes>
+			<class name="services.VendorManagement"/>
+		</classes>
+	</test>
+	
+	<test name="Tagging" preserve-order="true">
+		<classes>
+			<class name="services.Tagging"/>
+		</classes>
+	</test>
+	
+	<test name="MiddleWare" preserve-order="true">
+		<classes>
+			<class name="services.MiddleWare" />
+		</classes>
+	</test>
+	
+	<test name="SyncProcessor" preserve-order="true">
+		<classes>
+			<class name="services.SyncProcessor"/>
+		</classes>
+	</test>
+	
+	<test name="CBSIntegration" preserve-order="true">
+		<classes>
+			<class name="services.CBSIntegration"/>
+		</classes>
+	</test>
+	
+		<test name="PayloadBackup" preserve-order="true">
+		<classes>
+			<class name="services.PayloadBackup"/>
+		</classes>
+	</test>
+
+	
+<!-- 	<test name="SingleDeviceLogin" preserve-order="true">
+		<classes>
+			<class name="services.SingleDeviceLogin" />
+		</classes>
+
+	</test>
+	
+	 <test name="Login" preserve-order="true">
+		<classes>
+			<class name="services.NormalLogin" />
+		</classes>
+	</test>
+
+	<test name="BiometricsLoginV2" preserve-order="true">
+		<classes>
+			<class name="services.BiometricsLoginV2" />
+		</classes>
+	</test>
+
+	<test name="ChangePassword" preserve-order="true">
+		<classes>
+			<class name="services.ChangePassword" />
+		</classes> 
+	</test>
+	
+	<test name="ValidateEmailForOnboarding" preserve-order="true">
+		<classes>
+			<class name="services.ValidateEmailForOnboarding" />
+		</classes>
+	</test>
+	
+	<test name="ValidateOtpForOnboarding" preserve-order="true">
+		<classes>
+			<class name="services.ValidateOtpForOnboarding" />
+		</classes>
+	</test>
+
+	<test name="PasswordReset" preserve-order="true">
+		<classes>
+			<class name="services.PasswordReset" />
+		</classes>
+	</test>
+
+	<test name="SearchByNin" preserve-order="true">
+		<classes>
+			<class name="services.SearchByNin" />
+		</classes>
+	</test> 
+	
+	<test name="SearchByFinger" preserve-order="true">
+		<classes>
+			<class name="services.SearchByFinger" />
+		</classes>
+	</test> 
+	
+	
+	
+	<test name="SearchByFingerAndNin" preserve-order="true">
+		<classes>
+			<class name="services.SearchByFingerAndNin" />
+		</classes>
+	</test>
+
+	<test name="CreateNewEnrollmentWithMD5HashedPayload" preserve-order="true">
+		<classes>
+			<class name="services.CreateNewEnrollmentWithMD5HashedPayload" />
+		</classes>
+	</test>
+
+	<test name="DocumentUpload" preserve-order="true">
+		<classes>
+			<class name="services.DocumentUpload" />
+		</classes>
+	</test>
+
+	<test name="PersonalizationEncryption" preserve-order="true">
+		<classes>
+			<class name="services.PersonalizationEncryption" />
+		</classes>
+	</test>-->
+	
+</suite>

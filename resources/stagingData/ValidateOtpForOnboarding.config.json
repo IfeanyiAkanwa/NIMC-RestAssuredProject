@@ -1,0 +1,35 @@
+{
+	"endpoint" : "/biocapture/onboard/v2/validate/otp",
+	
+	
+	"emptyEmailEmptyOtp": {
+		"email": "",
+		"otp": ""
+	},
+	
+	"EmptyEmailValidOtp": {
+		"email": ""
+	},
+	
+	"validEmailThatHasNotBeenOnboardedEmptyOtp": {
+		"email": "tobs@yopmail.com",
+		"otp": ""
+	},
+	
+	"validEmailThatHasNotBeenOnboardedValidOtp": {
+		"email": "tobs@yopmail.com"
+	},
+	
+	"InvalidEmail": {
+		"email": "adele@yahoo.com"
+	},
+	
+	"validEmailThatHasNotBeenOnboardedInvalidOtp": {
+		"email": "tobs@yopmail.com",
+		"otp": "Password1@"
+	},
+	
+	"DeactivatedUser": {
+		"email": "egan@yopmail.com"
+	}
+}

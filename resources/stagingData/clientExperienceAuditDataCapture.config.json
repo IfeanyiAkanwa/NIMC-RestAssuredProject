@@ -1,0 +1,53 @@
+{
+
+	"endpoint": "/biocapture/audit/alog/capture-experience-details",
+
+	"checkEmptyAuditDataCapture": 
+	{
+        "demoAttempt": {
+                "attemptBreakdowns" : [
+                        {"name":"",
+                        "device":"",
+                        "results": [
+                                {
+                                        "property":"",
+                                        "value":""
+                                }
+                                ],
+                         "status":"",
+                    "duration":0,
+                    "thresholdType":"",
+                    "startTime":"",
+                    "endTime":""
+                        }
+                        ],
+                "duration":0,
+            "numberOfAttempts":0
+        },
+        "endToEndTime":"",
+    "demoTime":"",
+    "pId":"",
+    "cId":"",
+    "tag":"",
+    "uniqueId":"",
+    "longitude":"",
+    "latitude":"",
+    "networkType":"",
+    "captureMode":"",
+    "networkStrength":"",
+        "captureDate":"",
+    "startTime":"",
+     "endTime":"",
+        "appName":"",
+     "appId":"",
+    "enrollmentUsecase":"",
+    "regCenter":"",
+    "agentInformation":{
+            "agentFirstName":"",
+            "agentLastName":"",
+            "agentEmail":"",
+            "agentNin":""
+    }
+}
+
+}

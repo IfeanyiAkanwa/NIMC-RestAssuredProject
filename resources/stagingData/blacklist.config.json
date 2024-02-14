@@ -1,0 +1,29 @@
+{
+
+	"endpoint": "/biocapture/blacklist/nimc",
+
+	"verifyWhitelistedDevice": 
+	{
+    "tag": "DROID-S120-NM0073-1596631224903",
+    "agentEmail": "janedoe@agents.com",
+    "mac": "18-4F-32-35-54-28",
+    "deviceId":"SAMSUNG-356472091164123"
+},
+	
+	"verifyBlacklistedDevice": 
+	{
+    "tag": "DROID-S120-NM0073-1596631224903",
+    "agentEmail": "adazejohn@gmail.com",
+    "mac": "18-4F-32-35-54-28",
+    "deviceId":"SAMSUNG-356472091164153-COM.SEAMFIX.NIMC_APK"
+},
+	
+	"verifyEmptyDeviceID": 
+	{
+    "tag": "DROID-S120-NM0073-1596631224903",
+    "agentEmail": "adazejohn@gmail.com",
+    "mac": "18-4F-32-35-54-28",
+    "deviceId":" "
+}
+
+}

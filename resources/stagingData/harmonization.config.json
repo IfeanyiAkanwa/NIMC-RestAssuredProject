@@ -1,0 +1,17 @@
+{
+  "endpoint" : "/biocapture/uidstatus/check/nibss",
+
+
+  "validCapturedRecord": {
+	"recordId":"0PXRZI8SQ110Q2H"
+},
+
+  "invalidCapturedRecord":{
+	"recordId":"0PAAAASQ110Q2H"
+},
+  
+  "emptyCapturedRecord": {
+	"recordId":""
+}
+
+}

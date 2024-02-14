@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NimcServices" parallel="tests" thread-count="25">
+    <parameter name="groupReport" value="/Nimc.html" />
+    <parameter name="toMails" value="soli@seamfix.com;jikhile@seamfix.com" />
+    <parameter name="dataEnv" value="stagingData" />
+
+
+  <test name="CbsLogin" preserve-order="true">
+		<classes>
+			<class name="services.CbsLogin" />
+		</classes>
+	</test> 
+	
+		<test name="BlackList" preserve-order="true">
+		<classes>
+			<class name="services.BlackList" />
+		</classes>
+	</test> 
+	
+	<test name="Configs" preserve-order="true">
+		<classes>
+			<class name="services.Configs" />
+		</classes>
+	</test>
+	
+	<test name="HeartBeat" preserve-order="true">
+		<classes>
+			<class name="services.HeartBeat" />
+		</classes>
+	</test> 
+	
+	<test name="KeyManagement" preserve-order="true">
+		<classes>
+			<class name="services.KeyManagement" />
+		</classes>
+	</test>
+	
+	<test name="ClientExperienceAuditDataCapture" preserve-order="true">
+		<classes>
+			<class name="services.ClientExperienceAuditDataCapture" />
+		</classes>
+	</test>
+	
+	<test name="UserManagement" preserve-order="true">
+		<classes>
+			<class name="services.UserManagement" />
+		</classes>
+	</test>
+	
+	<test name="Harmonization" preserve-order="true">
+		<classes>
+			<class name="services.Harmonization"/>
+		</classes>
+	</test>
+	
+	<test name="VendorManagement" preserve-order="true">
+		<classes>
+			<class name="services.VendorManagement"/>
+		</classes>
+	</test>
+	
+	<test name="Tagging" preserve-order="true">
+		<classes>
+			<class name="services.Tagging"/>
+		</classes>
+	</test>
+	
+	<test name="MiddleWare" preserve-order="true">
+		<classes>
+			<class name="services.MiddleWare" />
+		</classes>
+	</test>
+	
+	<test name="SyncProcessor" preserve-order="true">
+		<classes>
+			<class name="services.SyncProcessor"/>
+		</classes>
+	</test>
+	
+	<test name="CBSIntegration" preserve-order="true">
+		<classes>
+			<class name="services.CBSIntegration"/>
+		</classes>
+	</test>
+	
+	<test name="PayloadBackup" preserve-order="true">
+		<classes>
+			<class name="services.PayloadBackup"/>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,58 @@
+{
+
+	"fetchEnrollmentCentreResourceURL": "/enrollment/X0-X0-X0-X0-X0/NM0072/centers",
+	"deviceUpdateNotificationResourceURL":"/enrollment/device-update/notification/HENA-359500002567921",
+	"newDeviceNotificationResourceURL":"/enrollment/new-device/notification",
+	"enrollmentNotificationResourceURL":"/enrollment/notification",
+	
+	"deviceUpdateNotificationBody": 
+	{"requestId":"INFINIX-4222250993188700",
+	"centerCode":"FC0001",
+	"esaCode":"NM0073",
+	"dateModified":"2020-02-10T15:51:58.310Z",
+	"status":"ACTIVE"},
+	
+	"newDeviceNotificationBody":
+	{
+    "machineTag": "DROID-S120-255085-15738341240352189",
+    "providerDeviceIdentifier": "INFINIX-3565450991220082189",
+    "currentLocationLongitude": 3.47182494,
+    "currentLocationLatitude": 6.4380415,
+   "centerCode": "FC0001",
+        "centerName": "kuklux",
+    "authorizedByLastName": "atube",
+    "authorizedByFirstName": "frank",
+    "activatedByLastName": "KELLY KELL",
+    "activatedByFirstName": "KELLY KELL",
+    "activatorEmail": "kelly@yopmail.com",
+    "activatorPhone": "08091234567",
+    "activatorNin": "11111111111",
+   "esaName": "Seamfix",
+        "esaCode": "NM0093",
+    "providerIdentifier": "SEAMFIX",
+    "dateActivated": "2019-11-29T12:11:32.385Z",
+    "requestId": "INFINIX-3565450991220082189",
+    "location": "LEKKI"
+},
+
+"enrollmentNotificationBody":
+{    
+    "enrollmentType": "cr-new",
+    "currentLocationLongitude": 20.23,
+    "currentLocationLatitude": 23.23,
+    "trackingId": "33110BA556",
+    "enrollmentTime": "2020-01-02T02:50:12",
+    "preenrollmentCheckDone": true,
+    "enrollerLoginId": "12345678995",
+    "enrollerName": "Okezie Bright",
+    "timeSentToBackend": "2020-07-02T02:50:12",
+    "nodeId": "X0-X0-X0-X0-X0",
+    "originatingCenterCode": "FC0001",
+    "originatingCenterName": "kuklux",
+    "enrollmentSubType": [
+        "CHANGE_OF_NAME"
+    ],
+    "esaCode": "NM0073",
+	"deviceId":"SAMSUNG-356472091164123"
+}
+}

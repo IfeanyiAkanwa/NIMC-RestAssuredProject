@@ -1,0 +1,6 @@
+{
+
+	"validVendorResourceURL": "/enrollment/entity/status/fep/NM0073/X0-X0-X0-X0-X0",
+	"invalidDeviceIDVendorResourceURL": "/enrollment/entity/status/fep/NM0073/X0-RR-X0-X0",
+	"invalidESACodeVendorResourceURL": "/enrollment/entity/status/fep/NM0023/X0-X0-X0-X0-X0"
+}

@@ -1,0 +1,60 @@
+{
+  "endpoint" : "/biocapture/access/cbs/login",
+
+
+  "v ": {
+    "loginId": "11111111001",
+    "pw": "P@ssw0rd!",
+    "deviceIdentifier": "TRIFONE-352394091316902"
+  },
+
+  "invalidLoginIdAndPassword": {
+    "loginId": "1111111111",
+    "pw": "Passw0rd",
+    "deviceIdentifier": "TRIFONE-352394091316902"
+  },
+  
+  "emptyLoginId": {
+    "loginId": "",
+    "pw": "Password1@",
+    "deviceIdentifier": "TRIFONE-352394091316902"
+  },
+
+  "emptyLoginIdEmptyPassword": {
+    "loginId": "",
+    "pw": "",
+    "deviceIdentifier": "TRIFONE-352394091316902"
+  },
+
+  "validLoginIdInvalidPassword": {
+    "loginId": "11111111001",
+    "pw": "Password",
+    "deviceIdentifier": "TRIFONE-352394091316902"
+  },
+
+  "validLoginIdEmptyPassword": {
+    "loginId": "11111111001",
+    "pw": "",
+    "deviceIdentifier": "TRIFONE-352394091316902"
+  },
+
+  "loginWithDeactivatedUser": {
+    "loginId": "11111111112",
+    "pw": "P@ssw0rd!",
+    "deviceIdentifier": "TRIFONE-352394091316902"
+  },
+
+  "loginWithWrongDeviceID": {
+    "loginId": "11111111113",
+    "pw": "Password1@",
+    "deviceIdentifier": "DR"
+  },
+
+  "loginWithEmptyDeviceID": {
+    "loginId": "11111111113",
+    "pw": "Password1@",
+    "deviceIdentifier": ""
+  }
+
+
+}

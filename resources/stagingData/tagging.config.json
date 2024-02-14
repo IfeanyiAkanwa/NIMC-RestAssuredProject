@@ -1,0 +1,71 @@
+{
+
+	"endpoint": "/biocapture/tags/fetchTag/nimc",
+
+	"verifyTaggedDevice": 
+	{
+    "deviceId": "SAMSUNG-3564720911641234",
+    "appVersion": "1.0",
+    "deviceType": "DROID",
+    "appId": "com.seamfix.nimc_apk",
+    "appKey": "12345feyisayo12",
+    "vendorId": "S120",
+    "bvn": "11111111111",
+    "agentNin": "11111111111",
+    "agentFirstName": "Tagging",
+    "agentLastName": "Request",
+    "appName": "NIMC",
+    "phoneNumber": "08091234567",
+    "agentEmail": "tag@request.com",
+	"esaName": "NIMC local Pilot ESA",
+	"esaCode": "NM0073",
+	"coordinateAddress": "Utako",
+	"latitude": 23.23,
+	"longitude": 23.23
+},
+	
+	"verifyUnTaggedDevice": 
+	{
+    "deviceId": "SAMSUNG-356473091641234",
+    "appVersion": "1.0",
+    "deviceType": "DROID",
+    "appId": "com.seamfix.nimc_apk",
+    "appKey": "12345feyisayo12",
+    "vendorId": "S120",
+    "bvn": "11111111111",
+    "agentNin": "11111111111",
+    "agentFirstName": "Tagging",
+    "agentLastName": "Request",
+    "appName": "NIMC",
+    "phoneNumber": "08091234567",
+    "agentEmail": "tag@request.com",
+        "esaName": "NIMC local Pilot ESA",
+        "esaCode": "NM0073",
+        "coordinateAddress": "Utako",
+        "latitude": 23.23,
+        "longitude": 23.23
+},
+	
+	"verifyEmptyDeviceID": 
+{
+    "deviceId": "",
+    "appVersion": "1.0",
+    "deviceType": "DROID",
+    "appId": "com.seamfix.nimc_apk",
+    "appKey": "12345feyisayo12",
+    "vendorId": "S120",
+    "bvn": "11111111111",
+    "agentNin": "11111111111",
+    "agentFirstName": "Tagging",
+    "agentLastName": "Request",
+    "appName": "NIMC",
+    "phoneNumber": "08091234567",
+    "agentEmail": "tag@request.com",
+        "esaName": "NIMC local Pilot ESA",
+        "esaCode": "NM0073",
+        "coordinateAddress": "Utako",
+        "latitude": 23.23,
+        "longitude": 23.23
+}
+
+}

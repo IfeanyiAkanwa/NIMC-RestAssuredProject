@@ -1,0 +1,16 @@
+{
+  "PKIKeyPairResourceURL" : "/biocapture/key-mgt/get-key-pair/com.test.test",
+  "generateKeyCollectionResourceURL":"/biocapture/key-mgt/generate-key-collection",
+  "publicKeyResourceURL":"/biocapture/key-mgt/get-public-key",
+   
+   "generateKeyResourceURL": "/biocapture/key-mgt/generate/com.test.test",
+  
+
+
+  "generateKeyCollection": {
+	"appId":"com.test.test",
+	"clientKey": "434625674243F5F55CC614A7CC4100B87560D9881854C04B9D371E9875407331"
+}
+
+
+}

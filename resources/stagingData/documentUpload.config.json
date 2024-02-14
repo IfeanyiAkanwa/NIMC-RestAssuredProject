@@ -1,0 +1,80 @@
+{
+  "endPoint":"/sync/file-upload",
+
+
+  "uploadValidFileValidEncodedDataValid":
+    [
+      {
+        "encodedData":"vvvvvv",
+        "trackingId":"0PXS36XSD6TC8MG",
+        "fileName":"file.xml"
+      }
+    ],
+
+
+  "uploadValidFileEmptyEncodedData":
+  [
+    {
+      "encodedData":"",
+      "trackingId":"0PXS36XSD6TC8MG",
+      "fileName":"file.xml"
+    }
+  ],
+
+
+  "uploadEmptyFileValidEncodedData":
+  [
+    {
+      "encodedData":"vvvvvv",
+      "trackingId":"0PXS36XSD6TC8MG",
+      "fileName":""
+    }
+  ],
+
+
+  "uploadEmptyFileValidEncodedData2":
+  [
+    {
+      "encodedData":"vvvvvv",
+      "trackingId":"0PXS36XSD6TC8MG"
+    }
+  ],
+
+
+  "uploadEmptyFileValidEncodedDataEmptyTrackingId":
+  [
+    {
+      "encodedData":"vvvvvv",
+      "trackingId":"",
+      "fileName":"file.xml"
+    }
+  ],
+
+
+  "uploadEmptyPayload":
+  [
+    {
+      "encodedData":"vvvvvv",
+      "trackingId":"",
+      "fileName":"file.xml"
+    }
+  ],
+
+  "uploadValidFileValidEncodedDataInvalidTransactionID":
+  [
+    {
+      "encodedData":"vvvvvv",
+      "trackingId":"0PXS36XSD6T",
+      "fileName":"file.xml"
+    }
+  ],
+
+  "uploadInvalidFileExtensionValidEncodedData":
+  [
+    {
+      "encodedData":"vvvvvv",
+      "trackingId":"0PXS36XSD6TC8MG",
+      "fileName":"file.xml"
+    }
+  ]
+}
